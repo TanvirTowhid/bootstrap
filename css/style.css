@@ -1,0 +1,757 @@
+body {
+	background-color: #3890C4;
+	font-family: 'Montserrat', sans-serif;
+}
+h3 {
+	text-transform: uppercase;
+}
+/*--Header css starts here--*/
+header .navbar-default {
+    background-color: #3890C4;
+    border-color: #3890C4;
+}
+header .navbar {
+	margin-bottom: 30px;
+	
+}
+header .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 5px solid #0096FB;
+}
+header .navbar-default .navbar-nav>li>a:focus, 
+header .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    background-color: #004A85;
+    border-bottom: 5px solid #41B3FF;
+}
+header .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+header .fa {
+	display: block;
+	color: #fff;
+	padding-bottom: 10px;
+}
+header .nav>li>a {
+	padding: 30px 53px;
+	background-color: #005191;
+	border-right: 1px solid #0063ac;
+}
+header .nav>li:last-child a{
+	border-right: none;
+}
+/*--Slider css starts here--*/
+#slider {
+	position: relative;
+	margin-bottom: 40px;
+}
+.carousel-indicators {
+	left:90%;
+}
+.carousel-indicators .active {
+	background-color: #005191;
+	border-color: #005191;
+}
+.slider-content {
+	position: absolute;
+	top: 0;
+	left: 15%;
+	width: 300px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+.slider-content h1 {
+	color: #FFCD00;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 3.2em;
+	margin-top: 0px;
+}
+.slider-content h2 {
+	text-transform: uppercase;
+	font-size: 2.4em;
+	margin-top: 50px;
+    margin-bottom: 0px;
+}
+.slider-content hr{
+	max-width: 250px;
+	margin:0 auto 2px auto;
+}
+.slider-content p {
+	padding: 20px;
+}
+.slider-content .btn {
+	padding: 10px 50px;
+	font-size: 1.5em;
+	border-radius: 0px;
+	margin-top: 40px;
+}
+/*--Package css starts here--*/
+#package {
+	margin-bottom: 30px;
+}
+#package .thumbnail {
+	padding: 0px;
+	border:none;
+	border-radius: 0px;
+	transition: all 1s;
+}
+#package .thumbnail:hover {
+	transform: scale(1.1);
+}
+#package .caption .icon {
+	color: #F1C60F;
+	margin-bottom: 20px;
+}
+#package .caption hr {
+	max-width: 320px;
+	margin: 0 auto 2px auto;
+	border-top: 1px solid #777;
+}
+#package .caption p {
+	padding: 20px;
+}
+#package .caption .btn {
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 0px;
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+#package .caption .btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+#package .caption .btn-default {
+    color: #fff;
+    background-color: #0096FB;
+    border-color: #0096FB;
+}
+#package .col-md-4 .punta {
+	border-bottom: 4px solid #0096FB;
+}
+#package .col-md-4 .tahiti {
+	border-bottom: 4px solid #06FB00;
+}
+#package .col-md-4 .trip {
+	border-bottom: 4px solid #FB0053;
+}
+#package .thumbnail img {
+	position: relative;
+}
+/*--Gallery Slideshow css starts here--*/
+#gallery .container {
+  	position: relative;
+  	background-color: #fff;
+  	padding-bottom: 15px;
+}
+
+/* Hide the images by default */
+.mySlides {
+	margin-top: 15px;
+  	display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+#gallery .cursor {
+  	cursor: pointer;
+}
+
+/* Next & previous buttons */
+#gallery .prev,
+#gallery .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+#gallery .next {
+  	right: 1.2%;
+  	border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  	background-color: rgba(0, 0, 0, 0.7);
+}
+#gallery .row:after {
+ 	content: "";
+  	display: table;
+  	clear: both;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  	opacity: 0.7;
+}
+
+#gallery .active,
+.demo:hover {
+  	opacity: 1;
+}
+/*--Account section css starts here--*/
+#account {
+	margin: 40px 0;
+}
+#account .embed-responsive iframe {
+	top: 20px;
+}
+#account .right {
+	background-color: #fff;
+}
+
+#account .right h3 {
+	background-color: #007BCD;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-weight: bold;
+} 
+#account .right h3 span {
+	color: #FFCD00;
+}
+#account .right p {
+	margin: 20px;
+	text-align: left;
+	font-size: 1.1em;
+}
+#account .right form {
+	margin: 20px;
+}
+#account .right .form-control {
+	border: 1px solid #66D9EF;
+	border-radius: 0px;
+}
+#account .right .btn {
+	padding: 10px 0;
+	border-radius: 0px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	margin:	5px 20px 20px 20px;
+	text-align: center;
+	width: 94%;
+	font-weight: bold;
+}
+#account .right .btn-default {
+    color: #fff;
+    background-color: #0096FB;
+    border-color: #0096FB;
+}
+/*--Subscibe css starts here--*/
+#subscribe {
+	margin-bottom: 40px;
+}
+.subscibe-content {
+	background-color: #fff;
+	padding: 30px 0;
+	border-top: 10px dashed #FF0C0C;
+	border-bottom: 10px dashed #FF0C0C;
+}
+.subscibe-content h2 {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+.subscibe-content h2 span {
+	color: #0096FB;
+	font-weight: bold;
+}
+.subscibe-content a {
+	float: right;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+.subscibe-content .btn-default {
+	color: #fff;
+	background-color: #0096FB; 
+	border-color: #0096FB; 
+}
+.subscibe-content .btn {
+	padding: 10px 40px;
+	border-radius: 0px;
+}
+/*--Massage section css starts here--*/
+#massage {
+	
+}
+#massage .selection {
+	background-color: #007BCD;
+	color: #fff;
+}
+#massage .selection h3 {
+	background-color: #0068AE;
+	padding: 20px 0px 20px 20px;
+}
+#massage .selection .checkbox {
+	padding: 10px 0px;
+	margin: 0px 20px;
+	border-bottom: 2px dashed #0096FB;
+}
+#massage .selection button {
+	width: 100%;
+	text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+#massage .selection .btn {
+	padding: 20px;
+	border-radius: 0px;
+}
+#massage .selection .btn-default {
+	color: #fff;
+	background-color: #FFCD00;
+	border-color: #FFCD00; 
+}
+#massage .selection .badge {
+    color: #0096FB;
+    background-color: #fff;
+	font-size: 1em;
+}
+.massage {
+	background-color: #fff;
+	margin-top: 20px;
+	
+}
+.massage h3 {
+	background-color: #007BCD;
+	color: #fff;
+	padding: 20px;
+	margin-top: 0;
+	border-top: 5px solid #14D400;
+}
+.massage form {
+	margin:15px 15px 15px 20px;
+	text-transform: uppercase;
+}
+.massage form input {
+	width: 60%;
+}
+.massage form .form-control {
+	background-color: #DFF2FF;
+	border: 1px solid #0096FB;
+	border-radius: 0px;
+}
+.massage form button {
+	margin-bottom: 35px;
+}
+.massage form .btn {
+	padding: 10px 60px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.massage form .btn-default {
+	color: #fff;
+	background-color: #0096FB;
+	border-color: #0096FB;
+}
+/*--Calendar css starts here--*/
+#calendar {
+	margin: 30px 0;
+}
+/* Month header */
+.month {
+    padding: 50px 25px;
+    width: 100%;
+    background: #0068AE;
+    text-align: center;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    top: 16%;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+.month .prev:hover,
+.month .next:hover {
+	background-color: rgba(0,123,205, 0.3);
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    top: 16%;
+    right: 7%;
+    border-radius: 3px;
+    padding: 10px 15px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    background-color:#fff;
+    -webkit-padding-start: 0px;
+}
+.weekdays li {
+    display: inline-block;
+    color: #000;
+    padding: 19px 20px;
+    margin: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* Days (1-31) */
+.days {
+    background: #007BCD;
+    margin: 0;
+    -webkit-padding-start: 0px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13%;
+    text-align: center;
+    padding: 20px;
+    margin: 2px;
+    font-size:16px;
+    font-weight: bold;
+    color: #fff;
+    border: 1px solid #DFF2FF;
+    overflow: hidden;
+}
+.days li span {
+	background-color: #006BB3;
+	padding: 22px 32px;
+	margin-left: -20px;
+}
+/* Highlight the "current" day */
+.days li .active {
+    padding: 22px 30px;
+    background-color: #0096FB;
+    color: #FF0C0C;
+    margin-left: -20px;
+}
+/*--Journey css starts here--*/
+ #calendar .journey .nav li a {
+ 	color: #737373;
+ 	background-color: #DFF2FF;
+ 	font-size: 1.5em;
+ 	border: 1px solid #48BEEF;
+ }
+#calendar .journey .nav>li>a {
+	padding: 25px 15px;
+	border-radius: 0px;
+}
+#calendar .nav-tabs>li.active>a, 
+.nav-tabs>li.active>a:focus, 
+.nav-tabs>li.active>a:hover {
+	color: #737373;
+	background-color: #fff;
+	border-top: 5px solid #14D400;
+	cursor: pointer;
+	font-weight: bold;
+}
+ #calendar .journey .thumbnail {
+ 	border-radius: 0px;
+ }
+ #calendar .journey .thumbnail .caption h3 {
+ 	color: #67A2DA;
+ 	text-transform: uppercase;
+ }
+ #calendar .journey .thumbnail .caption p {
+ 	font-size: 1.2em;
+ }
+/*--Booking form css starts here--*/
+.booking-form {
+	background-color: #007BCD;
+	color: #fff;
+}
+.booking-form h3 {
+	background-color: #0068AE;
+	padding: 20px;
+	font-weight: bold;
+	border-top: 5px solid #00E31C;
+}
+.booking-form form {
+	padding: 30px 20px;
+	overflow: hidden;
+}
+.booking-form .form-group {
+	margin-bottom: 25px;
+}
+.booking-form form label {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+	margin-bottom: 10px;
+}
+.booking-form .form-control {
+	color: #0096FB;
+	border-radius: 0px;
+	padding: 20px 12px;
+	border: 1px solid #007BCD;;
+}
+.booking-form .input-group-addon {
+	background-color: #0096FB;
+	border: none;
+	border-radius: 0px;
+}
+.booking-form .input-group-addon i {
+	color: #fff;
+}
+.booking-form .checkbox {
+	margin-top: 30px;
+}
+.booking-form .checkbox label {
+	padding-left: 5px;
+}
+.booking-form .search {
+	background-color: #0096FB;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 30px 20px;
+}
+.booking-form .search i {
+	float: left;
+	margin-right: 10px;
+}
+.booking-form .search p {
+	font-size: 2.3rem;
+}
+.resort {
+	margin-top: 40px;
+}
+.resort .thumbnail {
+	border-radius: 0px;
+	margin-bottom: 0px;
+}
+.resort .thumbnail img {
+	margin: 30px auto 10px auto;
+}
+.resort .caption h3 {
+	color: #007BCD;
+	font-weight: bold;
+}
+.resort .caption h4 {
+	text-transform: uppercase;
+}
+.resort .caption p {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding-top: 4px;
+}
+.resort .caption .btn-group {
+	padding: 20px 0;
+	text-transform: uppercase;
+}
+.resort .caption .btn-group .btn-default {
+	color: #fff;
+	background-color: #0096FB;
+	border-color: #0096FB;
+	padding: 6px 40px;
+}
+.resort .caption .btn-group span {
+	color: #F1C60F;
+}
+.resort .caption .btn {
+	border-radius: 0px;
+}
+.review {
+	background-color: #fff;
+}
+.review > h3 {
+	padding: 20px 40px;
+	background-color: #0068AE;
+	color: #fff;
+	font-weight: bold;
+	border-top: 5px solid #00E31C;
+}
+.rating {
+	padding: 10px 40px;
+}
+.rating i {
+	padding-right: 5px;
+}
+.rating a {
+	text-decoration: none;
+	font-size: 1.8rem;
+}
+.rating span {
+	color: #333;
+}
+.checked {
+	color: #F1C60F;
+}
+.star {
+	padding: 0px 40px;
+}
+.star p {
+	float: left;
+	margin-right: 10px;
+	padding-top: 5px;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+.progress {
+	width: 80%;
+	border-radius: 0px;
+	height: 30px;
+}
+.progress-bar {
+	background-color: #00E31C;
+}
+.star span {
+}
+.best, .worst {
+	padding-left: 40px;
+}
+.best p, .worst p {
+	margin-bottom: 12px;
+	font-size: 1.6rem;
+}
+.best i, .worst i {
+	margin-right: 5px;
+}
+.best span, .worst span {
+	color: #2A608D;
+}
+.social {
+	background-color: #0096FB;
+	padding: 30px 0;
+	margin: 40px 0;	
+}
+.social p {
+	float: left;
+	width: 200px;
+	text-transform: uppercase;
+	background-color: #007BCD;
+	color: #fff;
+	font-weight: bold;
+	font-size: 2.1rem;
+	padding: 40px 20px;
+	margin-top: -30px;
+	margin-right: 20px;
+	-webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.social i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #fff;
+	margin: 0px 5px;
+	color: #0096FB;
+	border-radius: 50%;
+}
+/*--Google Map css starts here--*/
+#map {
+	width: 100%;
+	height: 380px;
+	padding: 5px;
+	border: 10px solid #fff
+}
+/*--Google location css starts here--*/
+.location {
+	background-color: #007BCD;
+	color: #fff;
+	padding: 10px 0;
+}
+.location h4 {
+	text-transform: uppercase;
+	padding-top: 3px;
+}
+.location h4 span {
+	color: #FFCD00;
+}
+.location .btn-default {
+    color: #fff;
+    background-color: #00B716;
+    border-color: #00B716;
+    font-weight: bolder;
+}
+.location .btn {
+	padding: 10px 30px;
+	border-radius: 0px;
+}
+/*--Footer top section css starts here--*/
+.footer-top {
+	background-color: #00416B;
+	border-top: 10px solid #015184;
+}
+.footer-top h3 {
+	color: #FFCD00;
+	padding: 10px 0px;
+	margin-left: 15px;
+	border-bottom: 1px solid #3096CD;
+}
+.footer-top .container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+}
+.footer-top .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.footer-top .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-top .nav>li>a {
+	padding: 10px 80px 10px 0px;
+	border-bottom: 1px solid #3096CD;
+	margin-right: 10px;
+}
+.foot-gallery {
+	margin-left: 15px;
+}
+.company p{
+	margin-left: 15px;
+	color: #fff;
+}
+.footer-bottom {
+	color: #fff;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.footer-bottom .policy p {
+	float: left;
+	padding: 0px 45px;
+	border-right: 1px solid #fff;
+}
+.footer-bottom .policy p:last-child  {
+	border-right: none;
+}
